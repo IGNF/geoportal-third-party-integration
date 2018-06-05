@@ -1,0 +1,24 @@
+<div id="params">
+    <p>Restriction spatiale :</p>
+        <select id="territory">
+            <option value="no">-Aucune-</option>
+            <option value="METROPOLE">Métropole</option>
+            <option value="DOMTOM">Outre-mer</option>
+            <option value="01">Ain</option>
+            <option value="20">Corse</option>
+            <option value="30">Gard</option>
+            <option value="75">Paris</option>
+            <option value="974">La Réunion</option>
+        </select>
+    <p> Type de localisants :
+        <select id="type">
+            <option value="PositionOfInterest">Toponymes</option>
+            <option value="StreetAddress">Adresses</option>
+        </select>
+    </p>
+        <p>Localisant :
+            {{input key-up="suggest" type="text" id="location"}}
+        </p>
+    </div>
+
+{{yield}}

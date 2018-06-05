@@ -1,0 +1,19 @@
+{
+  "name": "simple-map-openlayers-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "geoportal-extensions-openlayers": "^2.0.0",
+    "openlayers": "^4.6.5",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-scripts": "1.1.4",
+    "xmldom": "^0.1.27"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

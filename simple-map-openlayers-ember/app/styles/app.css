@@ -1,0 +1,7 @@
+@import '../GpPluginOpenLayers.css';
+@import '../ol.css';
+
+div#map {
+    width: 100%;
+    height: 380px;
+}
