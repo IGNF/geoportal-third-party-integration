@@ -10,8 +10,11 @@ https://code.tutsplus.com/tutorials/creating-your-first-angular-app-components-p
 
 ## Installation des dépendences
 
->npm i --save geoportal-extensions-openlayers
->npm i --save openlayers
+>npm i --save geoportal-sdk
+>npm i --save itowns
+
+Puis copier le fichier itowns.js (node_modules/dist/itowns.js) dans le dossier src/assets/
+
 >npm i --save xmldom
 >npm i --save request
 
