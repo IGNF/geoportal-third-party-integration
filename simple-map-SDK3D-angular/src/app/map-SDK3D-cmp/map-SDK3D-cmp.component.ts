@@ -16,22 +16,14 @@ export class MapSDK3DCmpComponent implements OnInit {
 
   map = null;
 
-  switchTo3D = function switchTo3D() {
-      this.map = this.map.switch2D3D("3d");
-      document.getElementById("BoutonSwitchToOl").style.display = "inline";
-      document.getElementById("BoutonSwitchToItowns").style.display = "none";
-  };
-
-  switchTo2D = function switchTo2D() {
-      this.map = this.map.switch2D3D("2d");
-      document.getElementById("BoutonSwitchToItowns").style.display = "inline";
-      document.getElementById("BoutonSwitchToOl").style.display = "none";
+  switch2D3D = function switch2D3D() {
+      this.map = this.map.switch2D3D( (this.map.getViewMode() === "2d")? "3d":"2d");
   };
 
     ngOnInit() {
         this.map = Gp.Map.load("viewerDiv",{
             apiKey : "jhyvi0fgmnuxvfv0zjzorvdn",
-            viewMode : "3d",
+            viewMode : "2d",
             enginePath3d : "./assets/",
             center : {
                 x : 2.357,
