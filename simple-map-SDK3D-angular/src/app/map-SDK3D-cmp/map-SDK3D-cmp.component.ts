@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import * as Gp from 'node_modules/geoportal-sdk/dist/sdk-3d/GpOL3Itowns';
+declare var Gp : any;
 
 @Component({
   selector: 'app-map-SDK3D-cmp',
@@ -17,13 +17,13 @@ export class MapSDK3DCmpComponent implements OnInit {
   map = null;
 
   switch2D3D = function switch2D3D() {
-      this.map = this.map.switch2D3D( (this.map.getViewMode() === "2d")? "3d":"2d");
+      this.map = this.map.switchToLibITOL3( (this.map.getLib() === "ol3")? "itowns":"ol3");
   };
 
     ngOnInit() {
         this.map = Gp.Map.load("viewerDiv",{
             apiKey : "jhyvi0fgmnuxvfv0zjzorvdn",
-            viewMode : "2d",
+            library: "ol3",
             enginePath3d : "./assets/",
             center : {
                 x : 2.357,
