@@ -16,9 +16,14 @@ export class MapSDK3DCmpComponent implements OnInit {
 
   map = null;
 
+
   switch2D3D = function switch2D3D() {
       this.map = this.map.switchToLibITOL3( (this.map.getLib() === "ol3")? "itowns":"ol3");
   };
+
+    mapLoaded() {
+        console.log("carte chargée !");
+    }
 
     ngOnInit() {
         this.map = Gp.Map.load("viewerDiv",{
@@ -219,6 +224,10 @@ export class MapSDK3DCmpComponent implements OnInit {
                        {"name":"MPM","attribution":"Marseille Provence Métropole","logo":"http://wxs.ign.fr/static/logos/MPM/MPM.gif","url":"http://www.marseille-provence.com/","constraints":[{"crs":"EPSG:4326","bbox":{"left":5.076959,"right":5.7168245,"top":43.454994,"bottom":43.153347},"minScaleDenominator":534,"maxScaleDenominator":534,"temporalExtent":["2008-06-18","2016-04-13"]}]}
                     ],
                 }
+            },
+            mapEventsOptions : {
+                // Appel de la fonction après le chargement de la carte
+                "mapLoaded" : this.mapLoaded
             },
             controlsOptions : {
                 layerSwitcher : {
