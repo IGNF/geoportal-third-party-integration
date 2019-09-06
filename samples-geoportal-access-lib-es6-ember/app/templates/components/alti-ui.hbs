@@ -1,0 +1,27 @@
+<div id="params">
+    <p>
+        longitude 1 :
+        {{input type="text" id="lon1" size="10" value="2.4244"}}
+        latitude 1 :
+        {{input type="text" id="lat1" size="10" value="48.8449"}}
+    </p>
+    <p>
+        longitude 2 :
+        {{input type="text" id="lon2" size="10" value="2.4236"}} 
+        latitude 2 :
+        {{input type="text" id="lat2" size="10" value="48.8459"}}
+    </p>
+    <p>
+        sampling (nombre de points intermédaires) :
+        {{input type="text" id="sampling" size="5" value="20"}}
+    </p>
+    <p>
+        zonly
+        {{input type="checkbox" id="zonly" checked=false}}
+    </p>
+</div>
+<div id="go">
+    <input {{action "go"}} type="button" value="getAltitude" />
+</div>
+
+{{yield}}

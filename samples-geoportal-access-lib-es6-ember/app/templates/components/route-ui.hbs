@@ -1,0 +1,41 @@
+<div id="params">
+    <p>
+        lon départ:
+        {{input type="text" id="lon1" size="10" value="2.4236"}}
+        lat départ :
+        {{input type="text" id="lat1" size="10" value="48.8559"}}
+    </p>
+    <p>
+        lon inter :
+        {{input type="text" id="lon2" size="10"value="2.4270"}}
+        lat inter :
+        {{input type="text" id="lat2" size="10" value="48.8556"}}
+    </p>
+    <p>
+        lon arrivée:
+        {{input type="text" id="lon3" size="10" value="2.4282"}}
+        lat arrivée :
+        {{input type="text" id="lat3" size="10" value="48.8455"}}
+    </p>
+    <p> Eviter :
+        <input type="checkbox" value="true" id="toll"> péages
+        <input type="checkbox" value="true" id="bridge"> ponts
+        <input type="checkbox" value="true" id="tunnel"> tunnels
+    </p>
+    <p>Graphe :
+        <select id="graph">
+            <option value="Pieton">Piéton</option>
+            <option value="Voiture">Voiture</option>
+        </select>
+        Methode de calcul :
+        <select id="method">
+            <option value="fastest">le plus rapide</option>
+            <option value="shortest">le plus court</option>
+        </select>
+    </p>
+</div>
+<div id="go">
+    <input {{action "go"}} type="button" value="Itinéraire" />
+</div>
+
+{{yield}}

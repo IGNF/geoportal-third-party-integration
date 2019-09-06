@@ -1,0 +1,31 @@
+<header>
+    <div class="header-content">
+         <p class="logoIGN"><a href="/index.html"><img src="/images/logoIGN.png" alt="IGN" width="94" height="100"></a></p>
+        <h1 style="text-align: center;">Exemples d'utilisation de l'API des Services (sous EmberJS)</h1>
+    </div>
+</header>
+
+Liste des exemples :
+<ul>
+    <li>{{#link-to "geocode" class="button"}}[Géocoder des adresses, toponymes et parcelles cadastrales](geocode){{/link-to}}</li>
+    <li>{{#link-to "autocomplete" class="button"}}[Obtenir des suggestions d'adresses ou de toponymes à partir de textes incomplets](autocomplete){{/link-to}}</li>
+    <li>{{#link-to "reversegeocode" class="button"}}[Obtenir des localisants (toponymes, adresses, parcelles cadastrales) proche d'une position donnée](reverseGeocode){{/link-to}}</li>
+    <li>{{#link-to "alti" class="button"}}[Obtenir des altitudes en un ou plusieurs points ou calculer des profils altimétriques](alti){{/link-to}}</li>
+    <li>{{#link-to "route" class="button"}}[Calculer un itinéraire piéton ou routier](route){{/link-to}}</li>
+    <li>{{#link-to "isocurve" class="button"}}[Calculer des isochrones / isodistances autour d'un point](isoCurve){{/link-to}}</li>
+    <li>{{#link-to "getconfig" class="button"}}[Obtenir des informations relatives à un contrat d'accès au Géoportail](getConfig){{/link-to}}</li>
+</ul>
+
+<div id="components">
+    {{outlet}}
+</div>
+
+<footer>
+    <div class="header-content">
+        <p>
+            <img class="logo" src="/images/logoIGNsmall.png" alt="IGN" title="IGN" width="51" height="25">
+            <img class="baseline" src="/images/baselineIGN.png" alt="L'information grandeur nature" title="L'information grandeur nature" width="256" height="21">
+        </p>
+    </div>
+</footer>
+

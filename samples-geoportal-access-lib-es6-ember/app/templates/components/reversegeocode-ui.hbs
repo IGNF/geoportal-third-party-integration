@@ -1,0 +1,24 @@
+<div id="params">
+    <p>
+        longitude :
+        {{input type="text" id="lon" size="10" value="2.4244"}}
+        latitude :
+        {{input type="text" id="lat" size="10" value="48.8449"}}
+    </p>
+    <p>Type de Géocodage :
+        <select id="type">
+            <option value="PositionOfInterest">Toponymes</option>
+            <option value="StreetAddress">Adresses</option>
+            <option value="CadastralParcel">Parcelles Cadastrales</option>
+        </select>
+    </p>
+    <p>
+        rayon de recherche :
+        {{input type="text" id="rayon" size="5" value="100"}}
+    </p>
+</div>
+<div id="go">
+    <input {{action "go"}} type="button" value="Géocodage Inverse" />
+</div>
+
+{{yield}}
