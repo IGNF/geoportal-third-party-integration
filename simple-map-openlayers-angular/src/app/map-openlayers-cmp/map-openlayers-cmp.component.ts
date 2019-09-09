@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
-import Ol from 'openlayers';
-import * as Gp from 'geoportal-extensions-openlayers';
+import {View, Map } from 'ol';
+// import * as Gp from 'geoportal-extensions-openlayers';
 
-// import {Services, olExtended as Ol} from 'geoportal-extensions-openlayers';
+import {Services, olExtended} from 'geoportal-extensions-openlayers';
 
 @Component({
   selector: 'app-map-openlayers-cmp',
@@ -19,49 +19,49 @@ export class MapOpenlayersCmpComponent implements OnInit {
 
     ngOnInit() {
         var createMap = function() {
-            var map = new Ol.Map({
+            var map = new Map({
                 target : "map",
                 layers : [
-                    new Ol.layer.GeoportalWMTS({
+                    new olExtended.layer.GeoportalWMTS({
                         layer : "GEOGRAPHICALGRIDSYSTEMS.MAPS"
                     })
                 ],
-                view : new Ol.View({
+                view : new View({
                     center : [288074.8449901076, 6247982.515792289],
                     zoom : 8
                 })
             });
-            var drawing = new Ol.control.Drawing();
+            var drawing = new olExtended.control.Drawing();
             map.addControl(drawing);
-            var iso = new Ol.control.Isocurve();
+            var iso = new olExtended.control.Isocurve();
             map.addControl(iso);
-            var layerImport = new Ol.control.LayerImport();
+            var layerImport = new olExtended.control.LayerImport();
             map.addControl(layerImport);
-            var layerSwitcher = new Ol.control.LayerSwitcher();
+            var layerSwitcher = new olExtended.control.LayerSwitcher();
             map.addControl(layerSwitcher);
-            var mp = new Ol.control.GeoportalMousePosition();
+            var mp = new olExtended.control.GeoportalMousePosition();
             map.addControl(mp);
-            var route = new Ol.control.Route();
+            var route = new olExtended.control.Route();
             map.addControl(route);
-            var reverse = new Ol.control.ReverseGeocode({});
+            var reverse = new olExtended.control.ReverseGeocode({});
             map.addControl(reverse);
-            var search = new Ol.control.SearchEngine({});
+            var search = new olExtended.control.SearchEngine({});
             map.addControl(search);
 
-            var measureLength = new Ol.control.MeasureLength();
+            var measureLength = new olExtended.control.MeasureLength();
             map.addControl(measureLength);
-            var measureArea = new Ol.control.MeasureArea();
+            var measureArea = new olExtended.control.MeasureArea();
             map.addControl(measureArea);
-            var measureAzimuth = new Ol.control.MeasureAzimuth();
+            var measureAzimuth = new olExtended.control.MeasureAzimuth();
             map.addControl(measureAzimuth);
-            var measureProfil = new Ol.control.ElevationPath();
+            var measureProfil = new olExtended.control.ElevationPath();
             map.addControl(measureProfil);
 
-            var attributions = new Ol.control.GeoportalAttribution();
+            var attributions = new olExtended.control.GeoportalAttribution();
             map.addControl(attributions);
         }
 
-        Gp.Services.getConfig({
+        Services.getConfig({
             apiKey : "jhyvi0fgmnuxvfv0zjzorvdn",
             timeOut : 20000,
             onSuccess : createMap
