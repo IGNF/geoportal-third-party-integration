@@ -5,6 +5,7 @@ import template from './mapCpt.html';
 // leaflet
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+
 // extensions
 import { Services, LExtended } from "geoportal-extensions-leaflet";
 import "geoportal-extensions-leaflet/dist/GpPluginLeaflet-src.css";
