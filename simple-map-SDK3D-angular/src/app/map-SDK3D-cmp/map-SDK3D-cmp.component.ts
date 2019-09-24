@@ -18,7 +18,7 @@ export class MapSDK3DCmpComponent implements OnInit {
 
 
   switch2D3D = function switch2D3D() {
-      this.map = this.map.switchToLibITOL3( (this.map.getLib() === "ol3")? "itowns":"ol3");
+      this.map = this.map.switch2D3D( (this.map.getViewMode() === "2d")? "3d":"2d");
   };
 
     mapLoaded() {
@@ -28,8 +28,7 @@ export class MapSDK3DCmpComponent implements OnInit {
     ngOnInit() {
         this.map = Gp.Map.load("viewerDiv",{
             apiKey : "jhyvi0fgmnuxvfv0zjzorvdn",
-            library: "ol3",
-            enginePath3d : "./assets/",
+            library: "2d",
             center : {
                 x : 2.357,
                 y : 48.83

@@ -1,2 +1,2 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~node_modules/geoportal-sdk/dist/sdk-3d/GpOL3Itowns.css';
+@import '~@ignf-geoportal/sdk-3d/dist/GpSDK3D.css';
