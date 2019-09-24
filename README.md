@@ -75,7 +75,11 @@ _Listes des API Géoportail utilisées dans les exemples :_
 
 * _[simple-map-openlayers-ember](https://github.com/IGNF/geoportal-third-party-integration/tree/master/simple-map-openlayers-ember) :_
 
-  Integration de l'API des Extensions OpenLayers avec Ember
+  Integration de l'API des Extensions OpenLayers (ES6) avec Ember
+  ```
+  import {View, Map } from 'npm:ol';
+  import {Services, olExtended} from 'npm:geoportal-extensions-openlayers';
+  ```
 
 * _[simple-map-openlayers-react](https://github.com/IGNF/geoportal-third-party-integration/tree/master/simple-map-openlayers-react) :_
 
