@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
 import {View, Map } from 'ol';
-// import * as Gp from 'geoportal-extensions-openlayers';
 
 import {Services, olExtended} from 'geoportal-extensions-openlayers';
 

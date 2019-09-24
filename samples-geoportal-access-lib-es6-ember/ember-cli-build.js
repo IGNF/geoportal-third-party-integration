@@ -18,9 +18,10 @@ module.exports = function(defaults) {
   // Use `app.import` to add additional libraries to the generated
   // output files.
 
-  app.import(`node_modules/geoportal-access-lib/dist/GpServices.js`);
+  // app.import(`node_modules/geoportal-access-lib/dist/GpServices.js`);
+
   // app.import(`node_modules/geoportal-access-lib/src/Gp.js`, {
-  //     exports: {
+  //   exports: {
   //       'Gp': ['default']
   //   }
   // });
