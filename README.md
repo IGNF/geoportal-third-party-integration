@@ -56,14 +56,17 @@ _Listes des API Géoportail utilisées dans les exemples :_
   import { Services, LExtended } from "geoportal-extensions-leaflet";
   import "geoportal-extensions-leaflet/dist/GpPluginLeaflet-src.css";
   ```
+  ![Exemple Image](simple-map-leaflet-meteor/exemple.png)
 
 * _[simple-map-leaflet-meteor-angular](https://github.com/IGNF/geoportal-third-party-integration/tree/master/simple-map-leaflet-meteor-angular) :_
 
   Integration de l'API des Extensions Leaflet (ES6) avec Meteor/Angular
+  ![Exemple Image](simple-map-leaflet-meteor-angular/exemple.png)
 
 * _[simple-map-leaflet-meteor-react](https://github.com/IGNF/geoportal-third-party-integration/tree/master/simple-map-leaflet-meteor-react) :_
 
   Integration de l'API des Extensions Leaflet (ES6) avec Meteor/React
+  ![Exemple Image](simple-map-leaflet-meteor-react/exemple.png)
 
 * _[simple-map-openlayers-angular](https://github.com/IGNF/geoportal-third-party-integration/tree/master/simple-map-openlayers-angular) :_
 
@@ -72,6 +75,7 @@ _Listes des API Géoportail utilisées dans les exemples :_
   import {View, Map } from 'ol';
   import {Services, olExtended} from 'geoportal-extensions-openlayers';
   ```
+  ![Exemple Image](simple-map-openlayers-angular/exemple.png)
 
 * _[simple-map-openlayers-ember](https://github.com/IGNF/geoportal-third-party-integration/tree/master/simple-map-openlayers-ember) :_
 
@@ -80,11 +84,15 @@ _Listes des API Géoportail utilisées dans les exemples :_
   import {View, Map } from 'npm:ol';
   import {Services, olExtended} from 'npm:geoportal-extensions-openlayers';
   ```
+  ![Exemple Image](simple-map-openlayers-ember/exemple.png)
 
 * _[simple-map-openlayers-react](https://github.com/IGNF/geoportal-third-party-integration/tree/master/simple-map-openlayers-react) :_
 
   Integration de l'API des Extensions OpenLayers (ES6) avec React
 
+  ![Exemple Image](simple-map-openlayers-react/exemple.png)
+
 * _[simple-map-SDK3D-angular](https://github.com/IGNF/geoportal-third-party-integration/tree/master/simple-map-SDK3D-angular) :_
 
   Integration de l'API SDK3D avec Angular
+  ![Exemple Image](simple-map-SDK3D-angular/exemple.png)
