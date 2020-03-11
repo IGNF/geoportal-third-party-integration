@@ -20,6 +20,7 @@ _Listes des "Web Framework Front-End JS" utilisées dans les exemples :_
 - Angular (https://angular.io/)
 - Ember (https://www.emberjs.com/)
 - Meteor (https://www.meteor.com/)
+- VueJS (https://fr.vuejs.org/)
 
 
 ## API Géoportail
@@ -44,6 +45,10 @@ _Listes des API Géoportail utilisées dans les exemples :_
 * _[samples-geoportal-access-lib-es6-ember](https://github.com/IGNF/geoportal-third-party-integration/tree/master/samples-geoportal-access-lib-es6-ember) :_
 
     Integration de l'API des Services (ES6) avec Ember
+
+* _[samples-geoportal-access-lib-vuejs](https://github.com/IGNF/geoportal-third-party-integration/tree/master/samples-geoportal-access-lib-vuejs) :_
+
+        Integration de l'API des Services (ES6) avec VueJS
 
 * _[simple-map-leaflet-meteor](https://github.com/IGNF/geoportal-third-party-integration/tree/master/simple-map-leaflet-meteor) :_
 
