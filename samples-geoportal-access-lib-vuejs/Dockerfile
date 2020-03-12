@@ -1,8 +1,17 @@
 # commandes :
 # docker build -t dockerize-vuejs-app .
 # docker build -t dockerize-vuejs-app --build-arg http_proxy --build-arg https_proxy .
-# docker run -it -p 8080:80 --rm --name dockerize-vuejs-app-1 dockerize-vuejs-app
-# avec un accès à notre app sur http://localhost:8080
+# docker run -it -p 8888:80 --rm --name dockerize-vuejs-app-1 dockerize-vuejs-app
+# avec un accès à notre app sur http://localhost:8888
+
+# proxy settings dans docker :
+# cf. https://docs.docker.com/config/daemon/systemd/#httphttps-proxy
+# ajouter ou commenter les fichiers :
+#  /etc/systemd/system/docker.service.d/http-proxy.conf
+#  /etc/systemd/system/docker.service.d/https-proxy.conf
+# sudo systemctl daemon-reload
+# sudo systemctl restart docker
+# systemctl show --property=Environment docker
 
 # étape de build
 FROM node:lts-alpine as build-stage
@@ -16,13 +25,11 @@ FROM node:lts-alpine as build-stage
 WORKDIR /app
 
 # copie 'package.json' et 'package-lock.json' (si disponible)
+# cf. http://bitjudo.com/blog/2014/03/13/building-efficient-dockerfiles-node-dot-js/
 COPY package*.json ./
 
 # installe les dépendances du projet
 RUN npm install
-
-# RUN unset http_proxy
-# RUN unset https_proxy
 
 # copie les fichiers et dossiers du projet dans le dossier de travail
 # (par exemple : le dossier 'app')
@@ -30,6 +37,9 @@ COPY . .
 
 # construit l'app pour la production en la minifiant
 RUN npm run build
+
+# RUN unset http_proxy
+# RUN unset https_proxy
 
 # étape de production
 FROM nginx:stable-alpine as production-stage
