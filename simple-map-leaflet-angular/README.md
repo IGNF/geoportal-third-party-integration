@@ -10,10 +10,7 @@ https://code.tutsplus.com/tutorials/creating-your-first-angular-app-components-p
 
 ## Installation des dépendences
 
->npm i --save geoportal-extensions-leaflet
->npm i --save leaflet
->npm i --save xmldom
->npm i --save request
+> npm install
 
 ### FIXME
 
@@ -35,6 +32,10 @@ par :
         }
 
 cf. ISSUES : https://gist.github.com/niespodd/1fa82da6f8c901d1c33d2fcbb762947d
+
+```bash
+sed -i "s/node: false/node : {\n\t\tfs: 'empty',\n\t\tglobal: true,\n\t\tcrypto: 'empty',\n\t\t tls: 'empty',\n\t\tnet: 'empty',\n\t\tprocess: true,\n\t\tmodule: false,\n\t\tclearImmediate: false,\n\t\tsetImmediate: false\n\t}/" node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/webpack-configs/browser.js
+```
 
 ## Execution
 
