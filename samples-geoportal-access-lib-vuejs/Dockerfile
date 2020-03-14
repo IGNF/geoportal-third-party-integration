@@ -37,6 +37,8 @@ COPY . .
 
 # construit l'app pour la production en la minifiant
 RUN npm run build
+# en mode dev...
+# RUN npm run build -- --mode development
 
 # RUN unset http_proxy
 # RUN unset https_proxy

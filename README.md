@@ -48,20 +48,21 @@ _Listes des API Géoportail utilisées dans les exemples :_
 
 * _[samples-geoportal-access-lib-vuejs](https://github.com/IGNF/geoportal-third-party-integration/tree/master/samples-geoportal-access-lib-vuejs) :_
 
-        Integration de l'API des Services (ES6) avec VueJS
+    Integration de l'API des Services (ES6) avec VueJS
 
 * _[simple-map-leaflet-meteor](https://github.com/IGNF/geoportal-third-party-integration/tree/master/simple-map-leaflet-meteor) :_
 
-  Integration de l'API des Extensions Leaflet (ES6) avec Meteor
-  ```
-  // leaflet
-  import L from "leaflet";
-  import "leaflet/dist/leaflet.css";
-  // extensions
-  import { Services, LExtended } from "geoportal-extensions-leaflet";
-  import "geoportal-extensions-leaflet/dist/GpPluginLeaflet-src.css";
-  ```
-  ![Exemple Image](simple-map-leaflet-meteor/exemple.png)
+    Integration de l'API des Extensions Leaflet (ES6) avec Meteor
+
+    ```
+      // leaflet
+      import L from "leaflet";
+      import "leaflet/dist/leaflet.css";
+      // extensions
+      import { Services, LExtended } from "geoportal-extensions-leaflet";
+      import "geoportal-extensions-leaflet/dist/GpPluginLeaflet-src.css";
+    ```
+    ![Exemple Image](simple-map-leaflet-meteor/exemple.png)
 
 * _[simple-map-leaflet-meteor-angular](https://github.com/IGNF/geoportal-third-party-integration/tree/master/simple-map-leaflet-meteor-angular) :_
 

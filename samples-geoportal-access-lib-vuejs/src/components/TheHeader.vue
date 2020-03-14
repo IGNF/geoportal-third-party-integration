@@ -3,7 +3,7 @@
         <div class="header-content">
             <p class="logoIGN">
                 <a href="/index.html">
-                    <img src="/images/logoIGN.png" alt="IGN" width="94" height="100">
+                    <img src="/img/logoIGN.png" alt="IGN" width="94" height="100">
                 </a>
             </p>
             <h1>{{ title }}</h1>

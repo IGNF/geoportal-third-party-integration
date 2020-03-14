@@ -2,8 +2,8 @@
     <footer>
         <div class="header-content">
             <p>
-                <img class="logo" src="/images/logoIGNsmall.png" alt="IGN" title="IGN" width="51" height="25">
-                <img class="baseline" src="/images/baselineIGN.png" alt="L'information grandeur nature" title="L'information grandeur nature" width="256" height="21">
+                <img class="logo" src="/img/logoIGNsmall.png" alt="IGN" title="IGN" width="51" height="25">
+                <img class="baseline" src="/img/baselineIGN.png" alt="L'information grandeur nature" title="L'information grandeur nature" width="256" height="21">
             </p>
         </div>
     </footer>
