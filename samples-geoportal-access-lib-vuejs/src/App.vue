@@ -1,15 +1,15 @@
 <template>
     <div id="app">
 
-        <TheHeader title="Exemples d'utilisation de l'API des Services (sous VueJS)"/>
+        <TheHeader title="Exemples d'utilisation de l'API des Services"/>
 
         <div class="header-vuejs">
             <p class="">
-                <a href="https://fr.vuejs.org/">
-                    <img src="./assets/logo.png" alt="VueJS" width="94" height="100">
+                <a href="http://ignf.github.io/geoportal-access-lib/">
+                    <img src="./assets/logoIGN.png" alt="IGN" width="94" height="100">
                 </a>
             </p>
-            <h1>Utilisation de VueJS !</h1>
+            <h1>Accès à la <a href="http://ignf.github.io/geoportal-access-lib/latest/jsdoc/">JSDOC</a> de la bibliothèque d’accès aux services</h1>
         </div>
 
         <TheListSample/>

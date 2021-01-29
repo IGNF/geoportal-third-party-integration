@@ -2,7 +2,7 @@
     <header>
         <div class="header-content">
             <p class="logoIGN">
-                <a href="/index.html">
+                <a href="https://www.ign.fr">
                     <img src="/img/logoIGN.png" alt="IGN" width="94" height="100">
                 </a>
             </p>

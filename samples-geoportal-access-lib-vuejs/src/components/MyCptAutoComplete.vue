@@ -1,7 +1,7 @@
 <template>
     <div class="">
 
-        <h2>Utilisation de la méthode Gp.Services.autoComplete() avec options de filtrage <a href="http://jsfiddle.net/ignfgeoportail/jsjqk4wq/embedded/result,js,html,css/">(jsfiddle)</a>.</h2>
+        <h2>Utilisation de Gp.Services.autoComplete() <a href="http://jsfiddle.net/ignfgeoportail/jsjqk4wq/embedded/result,js,html,css/">(jsfiddle)</a>.</h2>
 
         <div id="params">
             <p> Restriction spatiale : </p>

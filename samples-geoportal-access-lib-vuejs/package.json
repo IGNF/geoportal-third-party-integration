@@ -1,7 +1,7 @@
 {
   "name": "vue",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -48,7 +48,8 @@
   "keywords": [
     "vue",
     "vuejs",
-    "starter"
+    "geoporal-access-lib",
+    "Geoportail"
   ],
-  "description": "Vue.js example starter project"
+  "description": "Projet des exemples de la librairie des accès aux services du Geoportail"
 }

@@ -1,7 +1,7 @@
 <template>
     <div class="">
 
-        <h2>Utilisation de Gp.Services.getAltitude() avec en jouant sur les paramètres de la fonction <a href="http://jsfiddle.net/ignfgeoportail/owxffaf3/embedded/result,js,html,css/">(jsfiddle)</a>.</h2>
+        <h2>Utilisation de Gp.Services.getAltitude() <a href="http://jsfiddle.net/ignfgeoportail/owxffaf3/embedded/result,js,html,css/">(jsfiddle)</a>.</h2>
 
         <div id="params">
             <p>

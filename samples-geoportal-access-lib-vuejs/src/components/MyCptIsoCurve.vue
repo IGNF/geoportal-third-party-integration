@@ -1,7 +1,7 @@
 <template>
     <div class="">
 
-        <h2>Utilisation de Gp.Services.isoCurve() avec modulation des paramètres <a href="http://jsfiddle.net/ignfgeoportail/od5pf6qw/embedded/result,js,html,css/">(jsfiddle)</a>.</h2>
+        <h2>Utilisation de Gp.Services.isoCurve() <a href="http://jsfiddle.net/ignfgeoportail/od5pf6qw/embedded/result,js,html,css/">(jsfiddle)</a>.</h2>
 
         <div id="params">
             <p>

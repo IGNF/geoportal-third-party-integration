@@ -1,7 +1,7 @@
 <template>
     <div class="">
 
-        <h2>Utilisation de Gp.Services.reverseGeocode() avec critères <a href="http://jsfiddle.net/ignfgeoportail/4t0wfey5/embedded/result,js,html,css/">(jsfiddle)</a>.</h2>
+        <h2>Utilisation de Gp.Services.reverseGeocode() <a href="http://jsfiddle.net/ignfgeoportail/4t0wfey5/embedded/result,js,html,css/">(jsfiddle)</a>.</h2>
 
         <div id="params">
             <p>

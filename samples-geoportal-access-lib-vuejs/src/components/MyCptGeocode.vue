@@ -1,7 +1,7 @@
 <template>
     <div class="">
 
-        <h2>Utilisation de Gp.Services.geocode() avec options de filtrage <a href="http://jsfiddle.net/ignfgeoportail/saye4oaz/embedded/result,js,html,css/">(jsfiddle)</a>.</h2>
+        <h2>Utilisation de Gp.Services.geocode() <a href="http://jsfiddle.net/ignfgeoportail/saye4oaz/embedded/result,js,html,css/">(jsfiddle)</a>.</h2>
 
         <div id="params">
             <p>Localisant à géocoder :
