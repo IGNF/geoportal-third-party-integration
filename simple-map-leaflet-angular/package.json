@@ -22,9 +22,9 @@
     "@angular/router": "^8.2.5",
     "@ngtools/webpack": "^8.3.3",
     "core-js": "^2.5.4",
-    "geoportal-extensions-leaflet": "2.1.5",
-    "leaflet": "1.5.1",
-    "request": "^2.87.0",
+    "geoportal-extensions-leaflet": "https://raw.githubusercontent.com/IGNF/geoportal-extensions/feature-change-request-dep/build/scripts/release/geoportal-extensions-leaflet-2.1.8.tgz",
+    "leaflet": "1.7.1",
+    "node-fetch" : "^2.6.1",
     "rxjs": "^6.4.0",
     "xmldom": "^0.1.27",
     "zone.js": "^0.9.1"
@@ -48,6 +48,6 @@
     "protractor": "~5.3.0",
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
-    "typescript": "^3.5.3"
+    "typescript": "^3.4.5"
   }
 }
