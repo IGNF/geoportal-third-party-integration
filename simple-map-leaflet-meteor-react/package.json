@@ -11,7 +11,7 @@
     "react-dom": "^16.4.0"
   },
   "devDependencies": {
-    "geoportal-extensions-leaflet": "https://raw.githubusercontent.com/IGNF/geoportal-extensions/feature-change-request-dep/build/scripts/release/geoportal-extensions-leaflet-2.1.8.tgz",
+    "geoportal-extensions-leaflet": "2.1.9",
     "leaflet": "^1.7.1"
   }
 }

@@ -22,9 +22,9 @@
     "@angular/router": "^8.2.5",
     "@ngtools/webpack": "^8.3.3",
     "core-js": "^2.5.4",
-    "geoportal-extensions-leaflet": "https://raw.githubusercontent.com/IGNF/geoportal-extensions/feature-change-request-dep/build/scripts/release/geoportal-extensions-leaflet-2.1.8.tgz",
+    "geoportal-extensions-leaflet": "2.1.9",
     "leaflet": "1.7.1",
-    "node-fetch" : "^2.6.1",
+    "node-fetch": "^2.6.1",
     "rxjs": "^6.4.0",
     "xmldom": "^0.1.27",
     "zone.js": "^0.9.1"
