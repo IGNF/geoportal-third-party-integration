@@ -10,34 +10,9 @@ https://code.tutsplus.com/tutorials/creating-your-first-angular-app-components-p
 
 ## Installation des dépendences
 
->npm i --save geoportal-sdk
->npm i --save itowns
+> npm install
 
-Puis copier le fichier itowns.js (node_modules/dist/itowns.js) dans le dossier src/assets/
-
->npm i --save xmldom
->npm i --save request
-
-### FIXME
-
-patch :  
-Dans le fichier "node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/webpack-configs/browser.js" remplacer :
->node: false  
-
-par :  
-   >node: {  
-            fs: 'empty',  
-            global: true,  
-            crypto: 'empty',  
-            tls: 'empty',  
-            net: 'empty',  
-            process: true,  
-            module: false,  
-            clearImmediate: false,  
-            setImmediate: false  
-        }
-
-cf. ISSUES : https://gist.github.com/niespodd/1fa82da6f8c901d1c33d2fcbb762947d
+Puis copier le fichier **GpSDK3D.js** (`node_modules/@ignf-geoportal/sdk-3d/dist/GpSDK3D.js`) dans le dossier `src/assets/`
 
 ## Execution
 
