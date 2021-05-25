@@ -26,7 +26,7 @@ Puis ouvrir le navigateur sur l'url suivante : http://localhost:4200/
 
 ## FIXME
 
-Pour une utilisation de "@ignf-geoportal/sdk-3d" <= "3.2.0",
+Pour une utilisation de "@ignf-geoportal/sdk-3d" < "3.2.0",
 il faut mettre en place un patch pour utiliser le plugin sous Angular.
 Ceci est causé par l'utilisation de la dependance *request* (dépréciée)...
 
@@ -93,5 +93,5 @@ Ex.
 ou la version en cours de review...
 
 ```json
-"@ignf-geoportal/sdk-3d": "https://raw.githubusercontent.com/IGNF/geoportal-sdk/upgrade_to_ol6/scripts/release/ignf-geoportal-sdk-3d-3.1.6.tgz"
+"@ignf-geoportal/sdk-3d": "https://raw.githubusercontent.com/IGNF/geoportal-sdk/upgrade_to_ol6/scripts/release/ignf-geoportal-sdk-3d-3.2.0.tgz"
 ```
