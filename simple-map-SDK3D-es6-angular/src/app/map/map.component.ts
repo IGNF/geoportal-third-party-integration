@@ -23,11 +23,11 @@ export class MapComponent implements OnInit {
       this.map = Map.load("viewerDiv",{
           apiKey : "jhyvi0fgmnuxvfv0zjzorvdn",
           library: "2d",
-          // center : {
-          //     x : 2.357,
-          //     y : 48.83,
-          //     projection : "CRS:84"
-          // },
+          center : {
+              x : 2.357,
+              y : 48.83,
+              projection : "CRS:84"
+          },
           layersOptions : {
               'ORTHOIMAGERY.ORTHOPHOTOS': {
                   type : "color",
@@ -232,6 +232,11 @@ export class MapComponent implements OnInit {
               },
               attributions : {
                   maximised : false
+              },
+              drawing : {
+                  tools : {
+                    holes : true
+                  }
               }
           }
       });
