@@ -49,7 +49,7 @@ export class MapLeafletCmpComponent implements OnInit {
         }
 
         Services.getConfig({
-            apiKey : "jhyvi0fgmnuxvfv0zjzorvdn",
+            apiKey: "essentiels,ortho,cartes,administratif,decouverte",
             timeOut : 20000,
             onSuccess : createMap
         });

@@ -25,7 +25,8 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "allowedCommonJsDependencies": ["leaflet"]
           },
           "configurations": {
             "production": {
@@ -50,18 +51,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "simple-map-leaflet-angular:build"
+            "buildTarget": "simple-map-leaflet-angular:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "simple-map-leaflet-angular:build:production"
+              "buildTarget": "simple-map-leaflet-angular:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "simple-map-leaflet-angular:build"
+            "buildTarget": "simple-map-leaflet-angular:build"
           }
         },
         "test": {
@@ -117,6 +118,5 @@
         }
       }
     }
-  },
-  "defaultProject": "simple-map-leaflet-angular"
+  }
 }

@@ -1,3 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~geoportal-extensions-leaflet/dist/GpPluginLeaflet.css';
-@import '~leaflet/dist/leaflet.css';
+@import 'node_modules/geoportal-extensions-leaflet/dist/GpPluginLeaflet.css';
+@import 'node_modules/leaflet/dist/leaflet.css';
+@import 'src/assets/charte.css';

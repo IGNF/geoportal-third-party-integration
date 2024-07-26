@@ -1,0 +1,399 @@
+diff --git a/node_modules/geoportal-extensions-leaflet/dist/GpPluginLeaflet-map.js b/node_modules/geoportal-extensions-leaflet/dist/GpPluginLeaflet-map.js
+index f18007b..f3b560e 100644
+--- a/node_modules/geoportal-extensions-leaflet/dist/GpPluginLeaflet-map.js
++++ b/node_modules/geoportal-extensions-leaflet/dist/GpPluginLeaflet-map.js
+@@ -1010,203 +1010,6 @@ eval("module.exports = JSON.parse(\"{\\\"name\\\":\\\"geoportal-extensions\\\",\
+ 
+ /***/ }),
+ 
+-/***/ "./src/Common/CSS/GPboostRelief.css":
+-/*!******************************************!*\
+-  !*** ./src/Common/CSS/GPboostRelief.css ***!
+-  \******************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9Db21tb24vQ1NTL0dQYm9vc3RSZWxpZWYuY3NzPzFmMzIiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoiLi9zcmMvQ29tbW9uL0NTUy9HUGJvb3N0UmVsaWVmLmNzcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/Common/CSS/GPboostRelief.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Common/CSS/GPbuildings.css":
+-/*!****************************************!*\
+-  !*** ./src/Common/CSS/GPbuildings.css ***!
+-  \****************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9Db21tb24vQ1NTL0dQYnVpbGRpbmdzLmNzcz81YTY3Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBIiwiZmlsZSI6Ii4vc3JjL0NvbW1vbi9DU1MvR1BidWlsZGluZ3MuY3NzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/Common/CSS/GPbuildings.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Common/CSS/GPdrawing.css":
+-/*!**************************************!*\
+-  !*** ./src/Common/CSS/GPdrawing.css ***!
+-  \**************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9Db21tb24vQ1NTL0dQZHJhd2luZy5jc3M/MmI2NCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsImZpbGUiOiIuL3NyYy9Db21tb24vQ1NTL0dQZHJhd2luZy5jc3MuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/Common/CSS/GPdrawing.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Common/CSS/GPelevationPath.css":
+-/*!********************************************!*\
+-  !*** ./src/Common/CSS/GPelevationPath.css ***!
+-  \********************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9Db21tb24vQ1NTL0dQZWxldmF0aW9uUGF0aC5jc3M/NTAxYSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsImZpbGUiOiIuL3NyYy9Db21tb24vQ1NTL0dQZWxldmF0aW9uUGF0aC5jc3MuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/Common/CSS/GPelevationPath.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Common/CSS/GPgeneralWidget.css":
+-/*!********************************************!*\
+-  !*** ./src/Common/CSS/GPgeneralWidget.css ***!
+-  \********************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9Db21tb24vQ1NTL0dQZ2VuZXJhbFdpZGdldC5jc3M/ZjJkYSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsImZpbGUiOiIuL3NyYy9Db21tb24vQ1NTL0dQZ2VuZXJhbFdpZGdldC5jc3MuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/Common/CSS/GPgeneralWidget.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Common/CSS/GPgetFeatureInfo.css":
+-/*!*********************************************!*\
+-  !*** ./src/Common/CSS/GPgetFeatureInfo.css ***!
+-  \*********************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9Db21tb24vQ1NTL0dQZ2V0RmVhdHVyZUluZm8uY3NzPzU5NTciXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoiLi9zcmMvQ29tbW9uL0NTUy9HUGdldEZlYXR1cmVJbmZvLmNzcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/Common/CSS/GPgetFeatureInfo.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Common/CSS/GPisochron.css":
+-/*!***************************************!*\
+-  !*** ./src/Common/CSS/GPisochron.css ***!
+-  \***************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9Db21tb24vQ1NTL0dQaXNvY2hyb24uY3NzPzI2MjIiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoiLi9zcmMvQ29tbW9uL0NTUy9HUGlzb2Nocm9uLmNzcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/Common/CSS/GPisochron.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Common/CSS/GPlayerSwitcher.css":
+-/*!********************************************!*\
+-  !*** ./src/Common/CSS/GPlayerSwitcher.css ***!
+-  \********************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9Db21tb24vQ1NTL0dQbGF5ZXJTd2l0Y2hlci5jc3M/MzFlZiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsImZpbGUiOiIuL3NyYy9Db21tb24vQ1NTL0dQbGF5ZXJTd2l0Y2hlci5jc3MuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/Common/CSS/GPlayerSwitcher.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Common/CSS/GPlocation.css":
+-/*!***************************************!*\
+-  !*** ./src/Common/CSS/GPlocation.css ***!
+-  \***************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9Db21tb24vQ1NTL0dQbG9jYXRpb24uY3NzPzIzYjciXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoiLi9zcmMvQ29tbW9uL0NTUy9HUGxvY2F0aW9uLmNzcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/Common/CSS/GPlocation.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Common/CSS/GPmeasureArea.css":
+-/*!******************************************!*\
+-  !*** ./src/Common/CSS/GPmeasureArea.css ***!
+-  \******************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9Db21tb24vQ1NTL0dQbWVhc3VyZUFyZWEuY3NzP2Q4ZmUiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoiLi9zcmMvQ29tbW9uL0NTUy9HUG1lYXN1cmVBcmVhLmNzcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/Common/CSS/GPmeasureArea.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Common/CSS/GPmeasureAzimuth.css":
+-/*!*********************************************!*\
+-  !*** ./src/Common/CSS/GPmeasureAzimuth.css ***!
+-  \*********************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9Db21tb24vQ1NTL0dQbWVhc3VyZUF6aW11dGguY3NzP2IxMmMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoiLi9zcmMvQ29tbW9uL0NTUy9HUG1lYXN1cmVBemltdXRoLmNzcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/Common/CSS/GPmeasureAzimuth.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Common/CSS/GPmeasureLength.css":
+-/*!********************************************!*\
+-  !*** ./src/Common/CSS/GPmeasureLength.css ***!
+-  \********************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9Db21tb24vQ1NTL0dQbWVhc3VyZUxlbmd0aC5jc3M/Njg4NCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsImZpbGUiOiIuL3NyYy9Db21tb24vQ1NTL0dQbWVhc3VyZUxlbmd0aC5jc3MuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/Common/CSS/GPmeasureLength.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Common/CSS/GPmeasureToolTip.css":
+-/*!*********************************************!*\
+-  !*** ./src/Common/CSS/GPmeasureToolTip.css ***!
+-  \*********************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9Db21tb24vQ1NTL0dQbWVhc3VyZVRvb2xUaXAuY3NzPzMyOTciXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoiLi9zcmMvQ29tbW9uL0NTUy9HUG1lYXN1cmVUb29sVGlwLmNzcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/Common/CSS/GPmeasureToolTip.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Common/CSS/GPmousePosition.css":
+-/*!********************************************!*\
+-  !*** ./src/Common/CSS/GPmousePosition.css ***!
+-  \********************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9Db21tb24vQ1NTL0dQbW91c2VQb3NpdGlvbi5jc3M/MjliNiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsImZpbGUiOiIuL3NyYy9Db21tb24vQ1NTL0dQbW91c2VQb3NpdGlvbi5jc3MuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/Common/CSS/GPmousePosition.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Common/CSS/GPreverseGeocoding.css":
+-/*!***********************************************!*\
+-  !*** ./src/Common/CSS/GPreverseGeocoding.css ***!
+-  \***********************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9Db21tb24vQ1NTL0dQcmV2ZXJzZUdlb2NvZGluZy5jc3M/OTZiOCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsImZpbGUiOiIuL3NyYy9Db21tb24vQ1NTL0dQcmV2ZXJzZUdlb2NvZGluZy5jc3MuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/Common/CSS/GPreverseGeocoding.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Common/CSS/GProute.css":
+-/*!************************************!*\
+-  !*** ./src/Common/CSS/GProute.css ***!
+-  \************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9Db21tb24vQ1NTL0dQcm91dGUuY3NzPzU1MzkiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoiLi9zcmMvQ29tbW9uL0NTUy9HUHJvdXRlLmNzcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/Common/CSS/GProute.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Common/CSS/GPsearchEngine.css":
+-/*!*******************************************!*\
+-  !*** ./src/Common/CSS/GPsearchEngine.css ***!
+-  \*******************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9Db21tb24vQ1NTL0dQc2VhcmNoRW5naW5lLmNzcz81ZTIxIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBIiwiZmlsZSI6Ii4vc3JjL0NvbW1vbi9DU1MvR1BzZWFyY2hFbmdpbmUuY3NzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/Common/CSS/GPsearchEngine.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Common/CSS/GPwaiting.css":
+-/*!**************************************!*\
+-  !*** ./src/Common/CSS/GPwaiting.css ***!
+-  \**************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9Db21tb24vQ1NTL0dQd2FpdGluZy5jc3M/OTMwNiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsImZpbGUiOiIuL3NyYy9Db21tb24vQ1NTL0dQd2FpdGluZy5jc3MuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/Common/CSS/GPwaiting.css\n");
+-
+-/***/ }),
+ 
+ /***/ "./src/Common/Controls/ElevationPathDOM.js":
+ /*!*************************************************!*\
+@@ -1520,105 +1323,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var leaf
+ 
+ /***/ }),
+ 
+-/***/ "./src/Leaflet/CSS/Controls/ElevationPath/GPelevationPathLeaflet.css":
+-/*!***************************************************************************!*\
+-  !*** ./src/Leaflet/CSS/Controls/ElevationPath/GPelevationPathLeaflet.css ***!
+-  \***************************************************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9MZWFmbGV0L0NTUy9Db250cm9scy9FbGV2YXRpb25QYXRoL0dQZWxldmF0aW9uUGF0aExlYWZsZXQuY3NzP2QxMmUiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoiLi9zcmMvTGVhZmxldC9DU1MvQ29udHJvbHMvRWxldmF0aW9uUGF0aC9HUGVsZXZhdGlvblBhdGhMZWFmbGV0LmNzcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/Leaflet/CSS/Controls/ElevationPath/GPelevationPathLeaflet.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Leaflet/CSS/Controls/Isochrone/GPisochronLeaflet.css":
+-/*!******************************************************************!*\
+-  !*** ./src/Leaflet/CSS/Controls/Isochrone/GPisochronLeaflet.css ***!
+-  \******************************************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9MZWFmbGV0L0NTUy9Db250cm9scy9Jc29jaHJvbmUvR1Bpc29jaHJvbkxlYWZsZXQuY3NzP2Q1N2IiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoiLi9zcmMvTGVhZmxldC9DU1MvQ29udHJvbHMvSXNvY2hyb25lL0dQaXNvY2hyb25MZWFmbGV0LmNzcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/Leaflet/CSS/Controls/Isochrone/GPisochronLeaflet.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Leaflet/CSS/Controls/LayerSwitcher/GPlayerSwitcherLeaflet.css":
+-/*!***************************************************************************!*\
+-  !*** ./src/Leaflet/CSS/Controls/LayerSwitcher/GPlayerSwitcherLeaflet.css ***!
+-  \***************************************************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9MZWFmbGV0L0NTUy9Db250cm9scy9MYXllclN3aXRjaGVyL0dQbGF5ZXJTd2l0Y2hlckxlYWZsZXQuY3NzPzRmNDkiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoiLi9zcmMvTGVhZmxldC9DU1MvQ29udHJvbHMvTGF5ZXJTd2l0Y2hlci9HUGxheWVyU3dpdGNoZXJMZWFmbGV0LmNzcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/Leaflet/CSS/Controls/LayerSwitcher/GPlayerSwitcherLeaflet.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Leaflet/CSS/Controls/LocationSelector/GPlocationLeaflet.css":
+-/*!*************************************************************************!*\
+-  !*** ./src/Leaflet/CSS/Controls/LocationSelector/GPlocationLeaflet.css ***!
+-  \*************************************************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9MZWFmbGV0L0NTUy9Db250cm9scy9Mb2NhdGlvblNlbGVjdG9yL0dQbG9jYXRpb25MZWFmbGV0LmNzcz8wNjk0Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBIiwiZmlsZSI6Ii4vc3JjL0xlYWZsZXQvQ1NTL0NvbnRyb2xzL0xvY2F0aW9uU2VsZWN0b3IvR1Bsb2NhdGlvbkxlYWZsZXQuY3NzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/Leaflet/CSS/Controls/LocationSelector/GPlocationLeaflet.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Leaflet/CSS/Controls/MousePosition/GPmousePositionLeaflet.css":
+-/*!***************************************************************************!*\
+-  !*** ./src/Leaflet/CSS/Controls/MousePosition/GPmousePositionLeaflet.css ***!
+-  \***************************************************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9MZWFmbGV0L0NTUy9Db250cm9scy9Nb3VzZVBvc2l0aW9uL0dQbW91c2VQb3NpdGlvbkxlYWZsZXQuY3NzPzgyNDYiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoiLi9zcmMvTGVhZmxldC9DU1MvQ29udHJvbHMvTW91c2VQb3NpdGlvbi9HUG1vdXNlUG9zaXRpb25MZWFmbGV0LmNzcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/Leaflet/CSS/Controls/MousePosition/GPmousePositionLeaflet.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Leaflet/CSS/Controls/ReverseGeocoding/GPreverseGeocodingLeaflet.css":
+-/*!*********************************************************************************!*\
+-  !*** ./src/Leaflet/CSS/Controls/ReverseGeocoding/GPreverseGeocodingLeaflet.css ***!
+-  \*********************************************************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9MZWFmbGV0L0NTUy9Db250cm9scy9SZXZlcnNlR2VvY29kaW5nL0dQcmV2ZXJzZUdlb2NvZGluZ0xlYWZsZXQuY3NzP2I2YzEiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoiLi9zcmMvTGVhZmxldC9DU1MvQ29udHJvbHMvUmV2ZXJzZUdlb2NvZGluZy9HUHJldmVyc2VHZW9jb2RpbmdMZWFmbGV0LmNzcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/Leaflet/CSS/Controls/ReverseGeocoding/GPreverseGeocodingLeaflet.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Leaflet/CSS/Controls/Route/GProuteLeaflet.css":
+-/*!***********************************************************!*\
+-  !*** ./src/Leaflet/CSS/Controls/Route/GProuteLeaflet.css ***!
+-  \***********************************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9MZWFmbGV0L0NTUy9Db250cm9scy9Sb3V0ZS9HUHJvdXRlTGVhZmxldC5jc3M/NjNjMCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsImZpbGUiOiIuL3NyYy9MZWFmbGV0L0NTUy9Db250cm9scy9Sb3V0ZS9HUHJvdXRlTGVhZmxldC5jc3MuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/Leaflet/CSS/Controls/Route/GProuteLeaflet.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Leaflet/CSS/Controls/SearchEngine/GPsearchEngineLeaflet.css":
+-/*!*************************************************************************!*\
+-  !*** ./src/Leaflet/CSS/Controls/SearchEngine/GPsearchEngineLeaflet.css ***!
+-  \*************************************************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9MZWFmbGV0L0NTUy9Db250cm9scy9TZWFyY2hFbmdpbmUvR1BzZWFyY2hFbmdpbmVMZWFmbGV0LmNzcz9hYzQ1Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBIiwiZmlsZSI6Ii4vc3JjL0xlYWZsZXQvQ1NTL0NvbnRyb2xzL1NlYXJjaEVuZ2luZS9HUHNlYXJjaEVuZ2luZUxlYWZsZXQuY3NzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/Leaflet/CSS/Controls/SearchEngine/GPsearchEngineLeaflet.css\n");
+-
+-/***/ }),
+-
+-/***/ "./src/Leaflet/CSS/GPgeneralWidgetLeaflet.css":
+-/*!****************************************************!*\
+-  !*** ./src/Leaflet/CSS/GPgeneralWidgetLeaflet.css ***!
+-  \****************************************************/
+-/*! no static exports found */
+-/***/ (function(module, exports, __webpack_require__) {
+-
+-eval("// extracted by mini-css-extract-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9MZWFmbGV0L0NTUy9HUGdlbmVyYWxXaWRnZXRMZWFmbGV0LmNzcz82MDExIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBIiwiZmlsZSI6Ii4vc3JjL0xlYWZsZXQvQ1NTL0dQZ2VuZXJhbFdpZGdldExlYWZsZXQuY3NzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/Leaflet/CSS/GPgeneralWidgetLeaflet.css\n");
+-
+-/***/ }),
+-
+ /***/ "./src/Leaflet/Controls/Controls.js":
+ /*!******************************************!*\
+   !*** ./src/Leaflet/Controls/Controls.js ***!
+@@ -1831,7 +1535,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var geop
+ /***/ (function(module, __webpack_exports__, __webpack_require__) {
+ 
+ "use strict";
+-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _CSS_GPgeneralWidgetLeaflet_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CSS/GPgeneralWidgetLeaflet.css */ \"./src/Leaflet/CSS/GPgeneralWidgetLeaflet.css\");\n/* harmony import */ var _CSS_GPgeneralWidgetLeaflet_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_CSS_GPgeneralWidgetLeaflet_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _CSS_Controls_ElevationPath_GPelevationPathLeaflet_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CSS/Controls/ElevationPath/GPelevationPathLeaflet.css */ \"./src/Leaflet/CSS/Controls/ElevationPath/GPelevationPathLeaflet.css\");\n/* harmony import */ var _CSS_Controls_ElevationPath_GPelevationPathLeaflet_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_CSS_Controls_ElevationPath_GPelevationPathLeaflet_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _CSS_Controls_Isochrone_GPisochronLeaflet_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CSS/Controls/Isochrone/GPisochronLeaflet.css */ \"./src/Leaflet/CSS/Controls/Isochrone/GPisochronLeaflet.css\");\n/* harmony import */ var _CSS_Controls_Isochrone_GPisochronLeaflet_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_CSS_Controls_Isochrone_GPisochronLeaflet_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _CSS_Controls_LayerSwitcher_GPlayerSwitcherLeaflet_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./CSS/Controls/LayerSwitcher/GPlayerSwitcherLeaflet.css */ \"./src/Leaflet/CSS/Controls/LayerSwitcher/GPlayerSwitcherLeaflet.css\");\n/* harmony import */ var _CSS_Controls_LayerSwitcher_GPlayerSwitcherLeaflet_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_CSS_Controls_LayerSwitcher_GPlayerSwitcherLeaflet_css__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _CSS_Controls_LocationSelector_GPlocationLeaflet_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./CSS/Controls/LocationSelector/GPlocationLeaflet.css */ \"./src/Leaflet/CSS/Controls/LocationSelector/GPlocationLeaflet.css\");\n/* harmony import */ var _CSS_Controls_LocationSelector_GPlocationLeaflet_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_CSS_Controls_LocationSelector_GPlocationLeaflet_css__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _CSS_Controls_MousePosition_GPmousePositionLeaflet_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./CSS/Controls/MousePosition/GPmousePositionLeaflet.css */ \"./src/Leaflet/CSS/Controls/MousePosition/GPmousePositionLeaflet.css\");\n/* harmony import */ var _CSS_Controls_MousePosition_GPmousePositionLeaflet_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_CSS_Controls_MousePosition_GPmousePositionLeaflet_css__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _CSS_Controls_ReverseGeocoding_GPreverseGeocodingLeaflet_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./CSS/Controls/ReverseGeocoding/GPreverseGeocodingLeaflet.css */ \"./src/Leaflet/CSS/Controls/ReverseGeocoding/GPreverseGeocodingLeaflet.css\");\n/* harmony import */ var _CSS_Controls_ReverseGeocoding_GPreverseGeocodingLeaflet_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_CSS_Controls_ReverseGeocoding_GPreverseGeocodingLeaflet_css__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var _CSS_Controls_Route_GProuteLeaflet_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./CSS/Controls/Route/GProuteLeaflet.css */ \"./src/Leaflet/CSS/Controls/Route/GProuteLeaflet.css\");\n/* harmony import */ var _CSS_Controls_Route_GProuteLeaflet_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_CSS_Controls_Route_GProuteLeaflet_css__WEBPACK_IMPORTED_MODULE_7__);\n/* harmony import */ var _CSS_Controls_SearchEngine_GPsearchEngineLeaflet_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./CSS/Controls/SearchEngine/GPsearchEngineLeaflet.css */ \"./src/Leaflet/CSS/Controls/SearchEngine/GPsearchEngineLeaflet.css\");\n/* harmony import */ var _CSS_Controls_SearchEngine_GPsearchEngineLeaflet_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_CSS_Controls_SearchEngine_GPsearchEngineLeaflet_css__WEBPACK_IMPORTED_MODULE_8__);\n/* global true */\n\n// En module ES6, on n'a pas besoin de ces CSS, car on utile le CSS géneré avec WebPack.\n// L'utilisation de ces imports est utile lors de la creation du bundle...\n\n\n\n\n\n\n\n\n\n\n// ce flag est substitué via le script de publication des sources du package...\nif (true) {\n  // plugin leaflet-draw !\n  __webpack_require__(/*! ../../node_modules/leaflet-draw/dist/leaflet.draw-src.css */ \"./node_modules/leaflet-draw/dist/leaflet.draw-src.css\");\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9MZWFmbGV0L1N0eWxlcy5qcz8zODViIl0sIm5hbWVzIjpbIl9fRkxBR19QTFVHSU5fQ1NTX18iLCJyZXF1aXJlIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBOztBQUVBO0FBQ0E7QUFDMEM7QUFFdUI7QUFDVDtBQUNTO0FBQ0Y7QUFDRTtBQUNNO0FBQ3RCO0FBQ2M7O0FBRS9EO0FBQ0EsSUFBSUEsbUJBQW1CLEVBQUU7RUFDckI7RUFDQUMsbUJBQU8sQ0FBQyx3SEFBMkQsQ0FBQztBQUN4RSIsImZpbGUiOiIuL3NyYy9MZWFmbGV0L1N0eWxlcy5qcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIGdsb2JhbCBfX0ZMQUdfUExVR0lOX0NTU19fICovXG5cbi8vIEVuIG1vZHVsZSBFUzYsIG9uIG4nYSBwYXMgYmVzb2luIGRlIGNlcyBDU1MsIGNhciBvbiB1dGlsZSBsZSBDU1MgZ8OpbmVyw6kgYXZlYyBXZWJQYWNrLlxuLy8gTCd1dGlsaXNhdGlvbiBkZSBjZXMgaW1wb3J0cyBlc3QgdXRpbGUgbG9ycyBkZSBsYSBjcmVhdGlvbiBkdSBidW5kbGUuLi5cbmltcG9ydCBcIi4vQ1NTL0dQZ2VuZXJhbFdpZGdldExlYWZsZXQuY3NzXCI7XG5cbmltcG9ydCBcIi4vQ1NTL0NvbnRyb2xzL0VsZXZhdGlvblBhdGgvR1BlbGV2YXRpb25QYXRoTGVhZmxldC5jc3NcIjtcbmltcG9ydCBcIi4vQ1NTL0NvbnRyb2xzL0lzb2Nocm9uZS9HUGlzb2Nocm9uTGVhZmxldC5jc3NcIjtcbmltcG9ydCBcIi4vQ1NTL0NvbnRyb2xzL0xheWVyU3dpdGNoZXIvR1BsYXllclN3aXRjaGVyTGVhZmxldC5jc3NcIjtcbmltcG9ydCBcIi4vQ1NTL0NvbnRyb2xzL0xvY2F0aW9uU2VsZWN0b3IvR1Bsb2NhdGlvbkxlYWZsZXQuY3NzXCI7XG5pbXBvcnQgXCIuL0NTUy9Db250cm9scy9Nb3VzZVBvc2l0aW9uL0dQbW91c2VQb3NpdGlvbkxlYWZsZXQuY3NzXCI7XG5pbXBvcnQgXCIuL0NTUy9Db250cm9scy9SZXZlcnNlR2VvY29kaW5nL0dQcmV2ZXJzZUdlb2NvZGluZ0xlYWZsZXQuY3NzXCI7XG5pbXBvcnQgXCIuL0NTUy9Db250cm9scy9Sb3V0ZS9HUHJvdXRlTGVhZmxldC5jc3NcIjtcbmltcG9ydCBcIi4vQ1NTL0NvbnRyb2xzL1NlYXJjaEVuZ2luZS9HUHNlYXJjaEVuZ2luZUxlYWZsZXQuY3NzXCI7XG5cbi8vIGNlIGZsYWcgZXN0IHN1YnN0aXR1w6kgdmlhIGxlIHNjcmlwdCBkZSBwdWJsaWNhdGlvbiBkZXMgc291cmNlcyBkdSBwYWNrYWdlLi4uXG5pZiAoX19GTEFHX1BMVUdJTl9DU1NfXykge1xuICAgIC8vIHBsdWdpbiBsZWFmbGV0LWRyYXcgIVxuICAgIHJlcXVpcmUoXCIuLi8uLi9ub2RlX21vZHVsZXMvbGVhZmxldC1kcmF3L2Rpc3QvbGVhZmxldC5kcmF3LXNyYy5jc3NcIik7XG59XG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/Leaflet/Styles.js\n");
++eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ 
++
++//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HcC8uL3NyYy9MZWFmbGV0L1N0eWxlcy5qcz8zODViIl0sIm5hbWVzIjpbIl9fRkxBR19QTFVHSU5fQ1NTX18iLCJyZXF1aXJlIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBOztBQUVBO0FBQ0E7QUFDMEM7QUFFdUI7QUFDVDtBQUNTO0FBQ0Y7QUFDRTtBQUNNO0FBQ3RCO0FBQ2M7O0FBRS9EO0FBQ0EsSUFBSUEsbUJBQW1CLEVBQUU7RUFDckI7RUFDQUMsbUJBQU8sQ0FBQyx3SEFBMkQsQ0FBQztBQUN4RSIsImZpbGUiOiIuL3NyYy9MZWFmbGV0L1N0eWxlcy5qcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIGdsb2JhbCBfX0ZMQUdfUExVR0lOX0NTU19fICovXG5cbi8vIEVuIG1vZHVsZSBFUzYsIG9uIG4nYSBwYXMgYmVzb2luIGRlIGNlcyBDU1MsIGNhciBvbiB1dGlsZSBsZSBDU1MgZ8OpbmVyw6kgYXZlYyBXZWJQYWNrLlxuLy8gTCd1dGlsaXNhdGlvbiBkZSBjZXMgaW1wb3J0cyBlc3QgdXRpbGUgbG9ycyBkZSBsYSBjcmVhdGlvbiBkdSBidW5kbGUuLi5cbmltcG9ydCBcIi4vQ1NTL0dQZ2VuZXJhbFdpZGdldExlYWZsZXQuY3NzXCI7XG5cbmltcG9ydCBcIi4vQ1NTL0NvbnRyb2xzL0VsZXZhdGlvblBhdGgvR1BlbGV2YXRpb25QYXRoTGVhZmxldC5jc3NcIjtcbmltcG9ydCBcIi4vQ1NTL0NvbnRyb2xzL0lzb2Nocm9uZS9HUGlzb2Nocm9uTGVhZmxldC5jc3NcIjtcbmltcG9ydCBcIi4vQ1NTL0NvbnRyb2xzL0xheWVyU3dpdGNoZXIvR1BsYXllclN3aXRjaGVyTGVhZmxldC5jc3NcIjtcbmltcG9ydCBcIi4vQ1NTL0NvbnRyb2xzL0xvY2F0aW9uU2VsZWN0b3IvR1Bsb2NhdGlvbkxlYWZsZXQuY3NzXCI7XG5pbXBvcnQgXCIuL0NTUy9Db250cm9scy9Nb3VzZVBvc2l0aW9uL0dQbW91c2VQb3NpdGlvbkxlYWZsZXQuY3NzXCI7XG5pbXBvcnQgXCIuL0NTUy9Db250cm9scy9SZXZlcnNlR2VvY29kaW5nL0dQcmV2ZXJzZUdlb2NvZGluZ0xlYWZsZXQuY3NzXCI7XG5pbXBvcnQgXCIuL0NTUy9Db250cm9scy9Sb3V0ZS9HUHJvdXRlTGVhZmxldC5jc3NcIjtcbmltcG9ydCBcIi4vQ1NTL0NvbnRyb2xzL1NlYXJjaEVuZ2luZS9HUHNlYXJjaEVuZ2luZUxlYWZsZXQuY3NzXCI7XG5cbi8vIGNlIGZsYWcgZXN0IHN1YnN0aXR1w6kgdmlhIGxlIHNjcmlwdCBkZSBwdWJsaWNhdGlvbiBkZXMgc291cmNlcyBkdSBwYWNrYWdlLi4uXG5pZiAoX19GTEFHX1BMVUdJTl9DU1NfXykge1xuICAgIC8vIHBsdWdpbiBsZWFmbGV0LWRyYXcgIVxuICAgIHJlcXVpcmUoXCIuLi8uLi9ub2RlX21vZHVsZXMvbGVhZmxldC1kcmF3L2Rpc3QvbGVhZmxldC5kcmF3LXNyYy5jc3NcIik7XG59XG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/Leaflet/Styles.js\n");
+ 
+ /***/ }),
+ 
+diff --git a/node_modules/geoportal-extensions-leaflet/src/Common/Styles.js b/node_modules/geoportal-extensions-leaflet/src/Common/Styles.js
+index a317872..9086d96 100644
+--- a/node_modules/geoportal-extensions-leaflet/src/Common/Styles.js
++++ b/node_modules/geoportal-extensions-leaflet/src/Common/Styles.js
+@@ -1,3 +1,4 @@
++/*
+ import "./CSS/GPboostRelief.css";
+ import "./CSS/GPbuildings.css";
+ import "./CSS/GPdrawing.css";
+@@ -16,3 +17,4 @@ import "./CSS/GPreverseGeocoding.css";
+ import "./CSS/GProute.css";
+ import "./CSS/GPsearchEngine.css";
+ import "./CSS/GPwaiting.css";
++*/
+\ No newline at end of file
+diff --git a/node_modules/geoportal-extensions-leaflet/src/Common/Utils/LayerUtils.d.ts b/node_modules/geoportal-extensions-leaflet/src/Common/Utils/LayerUtils.d.ts
+index e04ac6d..116f34e 100644
+--- a/node_modules/geoportal-extensions-leaflet/src/Common/Utils/LayerUtils.d.ts
++++ b/node_modules/geoportal-extensions-leaflet/src/Common/Utils/LayerUtils.d.ts
+@@ -1,6 +1,7 @@
+ export default LayerUtils;
+ declare namespace LayerUtils {
+     function getZoomLevelFromScaleDenominator(scaleDenominator: number, crs: string): Integer;
++    /*
+     function getAttributions(params: {
+         extent: Float[];
+         zoom: number;
+@@ -8,6 +9,7 @@ declare namespace LayerUtils {
+         visibility: boolean;
+         originators: Gp.Services.Config.Originator;
+     }): Object;
++    */
+     function intersects(extent1: Float[], extent2: Float[]): boolean;
+ }
+ //# sourceMappingURL=LayerUtils.d.ts.map
+\ No newline at end of file
+diff --git a/node_modules/geoportal-extensions-leaflet/src/Leaflet/Styles.js b/node_modules/geoportal-extensions-leaflet/src/Leaflet/Styles.js
+index e1086bb..8691eda 100644
+--- a/node_modules/geoportal-extensions-leaflet/src/Leaflet/Styles.js
++++ b/node_modules/geoportal-extensions-leaflet/src/Leaflet/Styles.js
+@@ -1,5 +1,7 @@
+ /* global false */
+ 
++/*
++
+ // En module ES6, on n'a pas besoin de ces CSS, car on utile le CSS géneré avec WebPack.
+ // L'utilisation de ces imports est utile lors de la creation du bundle...
+ import "./CSS/GPgeneralWidgetLeaflet.css";
+@@ -13,6 +15,8 @@ import "./CSS/Controls/ReverseGeocoding/GPreverseGeocodingLeaflet.css";
+ import "./CSS/Controls/Route/GProuteLeaflet.css";
+ import "./CSS/Controls/SearchEngine/GPsearchEngineLeaflet.css";
+ 
++*/
++
+ // ce flag est substitué via le script de publication des sources du package...
+ if (false) {
+     // plugin leaflet-draw !
+diff --git a/node_modules/geoportal-extensions-leaflet/src/Leaflet/index.d.ts b/node_modules/geoportal-extensions-leaflet/src/Leaflet/index.d.ts
+index d66e702..0159fae 100644
+--- a/node_modules/geoportal-extensions-leaflet/src/Leaflet/index.d.ts
++++ b/node_modules/geoportal-extensions-leaflet/src/Leaflet/index.d.ts
+@@ -14,5 +14,10 @@ export var Helper: any;
+ export var Protocols: any;
+ export var servicesDate: any;
+ export var servicesVersion: any;
+-export { L as LExtended };
++
++// export { LExtended };
++import * as L from 'leaflet';
++export const LExtended: typeof L;
++
++  
+ //# sourceMappingURL=index.d.ts.map
+\ No newline at end of file
